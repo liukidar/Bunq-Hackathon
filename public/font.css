@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "SF Pro Text Light";
+  font-weight: 300;
+  font-style: italic;
+  src: url("SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-style: italic;
+  src: url("SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Text Bold";
+  font-weight: 700;
+  src: url("SF-Pro-Text-Bold.otf");
+}

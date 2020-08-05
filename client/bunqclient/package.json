@@ -1,5 +1,5 @@
 {
-  "name": "bunq",
+  "name": "bunqclient",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
-    "vue": "^2.6.10",
-    "vuex": "^3.1.2"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -25,19 +24,20 @@
     "root": true,
     "env": {
       "node": true
-    },
+		},
+		"globals": {
+			"Hammer": "readonly"
+		},
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+			
+		},
     "parserOptions": {
       "parser": "babel-eslint"
-		},
-		"globals": {
-			"Hammer": "readonly",
-			"QRCode": "readonly"
-		}
+    }
   },
   "postcss": {
     "plugins": {
